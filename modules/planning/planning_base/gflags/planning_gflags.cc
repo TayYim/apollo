@@ -18,7 +18,7 @@
 
 #include <limits>
 
-DEFINE_int32(planning_loop_rate, 10, "Loop rate for planning node");
+DEFINE_int32(planning_loop_rate, 100, "Loop rate for planning node");
 
 DEFINE_int32(history_max_record_num, 5,
              "the number of planning history frame to keep");

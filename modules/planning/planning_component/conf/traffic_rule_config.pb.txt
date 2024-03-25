@@ -29,6 +29,7 @@ rule {
 rule {
   name: "TRAFFIC_LIGHT"
   type: "TrafficLight"
+  enabled: false
 }
 rule {
   name: "YIELD_SIGN"
